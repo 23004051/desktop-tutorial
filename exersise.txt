@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int totalCost;
+    cout<<"Enter the total cost"endln;
+    cin>>totalCost;
+    int Salary;
+    cout<<"Enter the salary of the employees and your salary" endln;
+    cin>>Salary;
+    int yearlyRent;
+    cout<<"ENTER the yearly rent"endln;
+    cin>>yearlyRent;
+    int electricity;
+    cout<<"ENTER the cost of electricity"endln;
+    cin>>electricity;
+   double Totalexpenses=totalCost+salary+yearlyRent+electricity;
+   double profit=totalCost*0.1;
+   double newProfit= profit/0.85;
+  double markup=newProfit+Totalexpenses;
+  return 0;
+
+
+}
